@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:day2/custome_container.dart';
+import 'package:day2/widgets/custome_container.dart';
 import 'package:day2/data.dart';
 
-class HomePage extends StatefulWidget {
+class RoomList extends StatefulWidget {
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<RoomList> createState() => _RoomListState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _RoomListState extends State<RoomList> {
   List? index = [1, 2, 3, 4, 5, 6, 7, 8];
   int? increament = 0;
 
